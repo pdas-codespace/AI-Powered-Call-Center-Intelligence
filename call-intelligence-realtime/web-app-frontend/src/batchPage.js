@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'reactstrap';
 //import axios from 'axios';
-import { getGPT3ParseExtractInfo, getGPT3CustomPromptCompletion, getGPT3Summarize, getKeyPhrases, getTokenOrRefresh } from './token_util.js';
+import { getGPT3ParseExtractInfo, getGPT3DiarizationPromptCompletion, getGPT3CustomPromptCompletion, getGPT3Summarize, getKeyPhrases, getTokenOrRefresh } from './token_util.js';
 import { ResultReason } from 'microsoft-cognitiveservices-speech-sdk';
 import './App.css';
 //import { Input } from '@material-ui/core';
